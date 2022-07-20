@@ -1,0 +1,455 @@
+@font-face {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  src: url(../fonts/FuturaPT-Bold.woff2);
+}
+@font-face {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: url(../fonts/FuturaPT-Book.woff);
+}
+@font-face {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  src: url(../fonts/FuturaPT-Medium.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Futura PT", sans-serif;
+  background: url(../bootcampexam_img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 1349px;
+  max-width: 1380px;
+}
+.menu-nav {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #333;
+  margin-left: 260px;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  height: 1px;
+}
+.phone {
+  margin-right: 70px;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  height: 1px;
+}
+.icon {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header {
+  width: 100%;
+}
+.bottom-header {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  position: absolute;
+  top: 7px;
+  left: 25px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 240px;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 40px;
+}
+.fish-title {
+  display: flex;
+}
+.fish {
+  margin-right: 14px;
+}
+.nav-link {
+  text-decoration: none;
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333;
+}
+.pet-title {
+  display: flex;
+  margin-left: 150px;
+}
+.pet {
+  margin-right: 14px;
+}
+.intro {
+  background: url(../bootcampexam_img/img.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-bottom: 750px;
+}
+.intro-box {
+  margin-top: 150px;
+  width: 600px;
+  float: right;
+}
+.intro-title {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333;
+}
+.intro-desc {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.intro-btn {
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  background: #333;
+  border-radius: 3px;
+}
+.blue {
+  color: #78c0de;
+}
+.motto {
+  margin-left: 300px;
+}
+.motto-desc {
+  width: 753px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+}
+.line {
+  margin-left: 300px;
+  width: 140px;
+  height: 0;
+  border: 1px solid #dbdbdb;
+}
+.mark {
+  margin-left: 640px;
+}
+.motto-text {
+  margin-top: 30px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333;
+  margin-left: 200px;
+}
+.service {
+  margin-top: 190px;
+}
+.service-title {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #333;
+}
+.boxes {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 55px;
+}
+.card {
+  width: 193px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 13px;
+  background: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+.vector-img1 {
+  margin-top: 90px;
+  margin-right: 30px;
+}
+.vector-img2 {
+  margin-top: 90px;
+  margin-left: 30px;
+}
+.card-text {
+  margin-top: 20px;
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #333;
+}
+.service-diagnos {
+  width: 1192px;
+  display: flex;
+  padding: 10px;
+  background: #fff;
+  border-radius: 0 5px 5px 5px;
+  margin-top: 14px;
+  margin-left: 100px;
+  margin-bottom: 200px;
+}
+.diagnos-desc {
+  width: 492px;
+  margin-left: 30px;
+  margin-top: 74px;
+}
+.desc-title {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  color: #333;
+  margin-bottom: 18px;
+}
+.desc-text {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+}
+.bottom-text {
+  margin-top: 8px;
+  margin-bottom: 34px;
+}
+.orange-btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background-color: #ffbd54;
+  color: #fff;
+  text-align: center;
+}
+.black-btn {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 3px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+.subscribe {
+  background: url(../bootcampexam_img/Mask.png);
+  background-repeat: no-repeat;
+  display: flex;
+  padding-bottom: 100px;
+}
+.sub-box {
+  padding-top: 100px;
+  padding-left: 160px;
+}
+.sub-title {
+  font-family: "Futura PT", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.form {
+  margin-top: 32px;
+}
+.sub-input {
+  background: #fff;
+  border-radius: 5px;
+  padding: 12px 65px;
+  border: none;
+  margin-right: 21px;
+}
+.sub-btn {
+  padding: 12px 25px;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+}
+.sub-img {
+  position: absolute;
+  top: 2006px;
+  right: 50px;
+}
+.news {
+  margin-top: 210px;
+}
+.news-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.news-boxes {
+  display: flex;
+}
+.new-card {
+  background: #fefefe;
+  border: 1px solid #e4e4e2;
+  border-radius: 5px;
+  margin-right: 24px;
+}
+.first-card {
+  margin-left: 20px;
+}
+.new-card-desc {
+  padding: 20px;
+}
+.time {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin-left: 200px;
+  color: #949494;
+}
+.card-title {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+}
+.card-desc {
+  width: 244px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  color: #949494;
+}
+.new-btn {
+  border: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+}
+.sec-card {
+  display: flex;
+}
+.card-box {
+  padding: 40px 34px 38px 30px;
+}
+.blue-word {
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #3d9cea;
+  margin-right: 7px;
+}
+.time2 {
+  margin-left: 80px;
+}
+.box-desc-title {
+  width: 190px;
+  font-family: "Futura PT";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333;
+  margin-top: 32px;
+}
+.desc-desc {
+  width: 288px;
+  margin-top: 15px;
+  margin-bottom: 38px;
+}
+.map {
+  margin-top: 260px;
+}
+.map-img {
+  width: 1349px;
+}
+.footer {
+  margin-top: 240px;
+  background: #f3f3f3;
+  border: 1px solid #ebebeb;
+  display: flex;
+  padding: 40px 5px;
+}
+.footer-list {
+  margin-right: 30px;
+}
+.footer-item {
+  list-style: none;
+  margin-top: 10px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+.item-tool {
+  width: 190px;
+  margin-right: 50px;
+}
+.phone2 {
+  display: flex;
+  flex-direction: column;
+}
+.tools {
+  margin-left: 50px;
+  margin-top: 17px;
+  display: flex;
+}
